@@ -5,3 +5,8 @@
 4: changed readme and edited the project fike again in a different way
 5: resolved merge conflicts
 6: edited readme and keep editing the project file
+7: changed readme and modified project 
+8: changed readme and added a new line project
+9: changed readme; deleted a line from the project
+
+11: fixed comflicts

@@ -1,5 +1,6 @@
 import requests
 import os
+import time
 
 target_skill_rating = ["NormalSkill/", "HighSkill/", "VeryHighSkill/"]
 gamemode = ["FunnyMode/"]
