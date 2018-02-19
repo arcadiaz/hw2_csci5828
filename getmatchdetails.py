@@ -1,9 +1,9 @@
 import requests
-import time
 import os
+import time
 
 target_skill_rating = ["NormalSkill/", "HighSkill/", "VeryHighSkill/"]
-gamemode = ["CaptainsMode/"]
+gamemode = ["FunnyMode/"]
 lobbytype = [ "CoopBot/", "Ranked/"]
 
 for lobby in lobbytype:
@@ -16,6 +16,7 @@ for lobby in lobbytype:
             for filename in os.listdir(dir):
                 print(dir + filename)
                 time.sleep(1)
+		url = "<your url here>"
                 result = requests.get(url).json()
                 f = open(writedir + filename, 'w')
                 f.write(str(result))
