@@ -16,6 +16,7 @@ for lobby in lobbytype:
             for filename in os.listdir(dir):
                 print(dir + filename)
                 time.sleep(1)
+		url = "<your url here>"
                 result = requests.get(url).json()
                 f = open(writedir + filename, 'w')
                 f.write(str(result))
