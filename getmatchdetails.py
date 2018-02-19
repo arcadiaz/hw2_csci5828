@@ -1,6 +1,5 @@
 import requests
 import time
-import os
 
 target_skill_rating = ["NormalSkill/", "HighSkill/", "VeryHighSkill/"]
 gamemode = ["AllPick/", "FunnyMode/"]
