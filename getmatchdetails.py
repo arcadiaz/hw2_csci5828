@@ -4,7 +4,7 @@ import os
 
 target_skill_rating = ["NormalSkill/", "HighSkill/", "VeryHighSkill/"]
 gamemode = ["CaptainsMode/"]
-lobbytype = ["Public/","SoloMid/", "CoopBot/", "Ranked/"]
+lobbytype = [ "CoopBot/", "Ranked/"]
 
 for lobby in lobbytype:
     for skill in target_skill_rating:
