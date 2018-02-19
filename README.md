@@ -10,3 +10,4 @@
 9: changed readme; deleted a line from the project
 
 11: fixed comflicts
+12: made a change in readme
